@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="6dip"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iviIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"            
+            android:src="@drawable/place" />
+
+        <TextView
+            android:id="@+id/tviEstacion"
+            style="@style/EstacionNombre"
+            android:layout_marginLeft="4dip"
+            android:gravity="center_vertical"
+            android:text="EEE" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="6dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tviLblHorario_a_gr"
+            style="@style/EstacionLblHorario"
+            android:text="@string/str_gr_short" />
+
+        <TextView
+            android:id="@+id/tviHorario_a_gr"
+            style="@style/EstacionHorario"
+            android:text="HHH" />
+
+        <TextView
+            android:id="@+id/textViewS"
+            style="@style/EstacionLblHorario"
+            android:text="@string/str_separator" />
+
+        <TextView
+            android:id="@+id/tviLblHorario_a_ves"
+            style="@style/EstacionLblHorario"
+            android:text="@string/str_ves_short" />
+
+        <TextView
+            android:id="@+id/tviHorario_a_ves"
+            style="@style/EstacionHorario"
+            android:text="HHH" />
+    </LinearLayout>
+
+</LinearLayout>

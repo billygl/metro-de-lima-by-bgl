@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MetroDeLimaTheme" parent="android:Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:listViewStyle">@style/MetroDeLimaListView</item>
+    </style>
+
+    <style name="MetroDeLimaListView" parent="@android:style/Widget.ListView">
+        <item name="android:background">#47AA42</item>
+        <item name="android:cacheColorHint">#47AA42</item>
+        <item name="android:listSelector">@drawable/list_selector</item>
+    </style>
+
+    <style name="Estacion">
+        <item name="android:textColor">#FFF</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="Tabs">
+        <item name="android:textColor">#FFF</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="EstacionNombre" parent="style/Estacion">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFF</item>
+        <!-- F8B428 -->
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:layout_width">wrap_content</item>
+        <!-- <item name="android:minWidth">140dp</item> -->
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="EstacionIcon" parent="style/Estacion">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="EstacionHorario" parent="style/Estacion">
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">110dp</item>
+    </style>
+
+    <style name="EstacionLblHorario" parent="style/EstacionHorario">
+        <item name="android:textStyle">italic</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+</resources>

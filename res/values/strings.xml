@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- TODO cambiar las tildes -->
+    <string name="app_name">Metro de Lima (by BGL)</string>
+    <string name="str_no_editar">No Editar</string>
+    <string name="str_editar">Editar</string>
+    <string name="alert_confirmacion">¿Está seguro(a)?</string>
+    <string name="alert_confirmacion_si">Sí</string>
+    <string name="alert_confirmacion_no">No</string>
+    <string name="indicacion">A Miguel Grau - A Villa El Salvador</string>
+    <string name="instrucciones"> La app muestra los horarios del Metro de Lima.\n 
+        * Tiene 2 Vistas: Estaciones y Horarios. Las Estaciones se agrupan en Todas y Favoritas.\n
+        * Uso:\n
+         - Presione sobre la estación y verá sus horarios.\n
+        * Estaciones Favoritas:\n
+         - Se agregan presionando por unos segundos en su estación favorita desde la lista Todas.\n
+         - Se eliminan presionando por unos segundos en su estación favorita desde la lista Favoritas.\n
+         - Para deshabilitar/habilitar la edición de favoritas use la opción No Editar/Editar.\n
+        * Horarios\n 
+         - A la izquierda están los horarios hacia la estación Grau.\n
+         - A la derecha están los horarios hacia la estación Villa El Salvador.\n\n
+        	</string>
+    <string name="bienvenida">Gracias por usar Metro de Lima (by BGL)\n\n
+        Presiona durante unos segundos sobre tu estación favorita desde la vista Todas para incluirlas en la vista Favoritas.\n
+        Para eliminar sigue los mismos pasos pero desde la vista Favoritas.\n\n
+        Para deshabilitar la edición de favoritas use la opción No Editar.	</string>
+    <string name="acerca_de"> Autor: Billy Grados Licham.\n
+	    Versión: 2.5.2</string>
+    <string name="volver">Volver</string>
+    <string name="descripcion">Permite ver los horarios del tren eléctrico Metro de Lima, Línea 1.</string>
+    <string name="autor">Billy Grados Licham</string>
+    <string name="todos">Todo</string>
+    <string name="proximos">Sgtes.</string>
+    <string name="str_loading">Cargando...</string>
+    <string name="str_gr_short">A GRAU</string>
+    <string name="str_ves_short">A V.E.S.</string>
+    <string name="str_separator">   /  </string>
+    <string name="str_gr">A Miguel Grau</string>
+    <string name="str_ves">A Villa El Salvador</string>
+    <string name="estacion_authority">me.metro.bgl.model.dao.EstacionDao</string>
+    <string name="frecuentes">Favoritas</string>
+    <string name="todas">Todas</string>
+    <string name="mnu_instrucciones">Instrucciones</string>
+    <string name="mnu_acerca">Acerca de</string>
+
+</resources>
